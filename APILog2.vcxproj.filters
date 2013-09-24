@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{518567e6-3dbd-47e5-b5f1-cefcaaf26a74}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3e5d4a52-8945-47e6-9e54-bae2ad3c1786}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2c8e5b86-6040-412f-88ae-fe3b5afa3242}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{dd2a4c07-39cd-47d7-83f1-71ae36e93ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Portable Executable">
+      <UniqueIdentifier>{65abd1aa-15b4-49a7-bac6-9970f36db550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{b38d4d56-acb6-4b1a-8508-f8463cd3c88c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="APILog2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\units\Binary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinControls.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\units\Classes.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\units\Controls.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Processes.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\units\StdGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\units\WinControls.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\units\PEFiles.cpp">
+      <Filter>Portable Executable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\units\PERecords.cpp">
+      <Filter>Portable Executable</Filter>
+    </ClCompile>
+    <ClCompile Include="CParser.cpp">
+      <Filter>Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="PTemplates.cpp">
+      <Filter>Compiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="APILog2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\units\binary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinControls.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\units\Classes.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\units\Controls.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Processes.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\units\StdGUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\units\WinControls.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\units\PEFiles.h">
+      <Filter>Portable Executable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\units\PERecords.h">
+      <Filter>Portable Executable</Filter>
+    </ClInclude>
+    <ClInclude Include="CParser.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="PTemplates.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="APILog2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\units\PERecords.inc">
+      <Filter>Portable Executable</Filter>
+    </None>
+    <None Include="concept.txt" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="APILog2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: APILog2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\SMIRNO~1.ODU\LOCALS~1\Temp\RSP227.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D _WIN32_WINNT=0x0400 /FR"Debug/" /Fp"Debug/APILog2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\PROGS\CPP\APILog2\Processes.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\SMIRNO~1.ODU\LOCALS~1\Temp\RSP227.tmp" 
+Creating temporary file "C:\DOCUME~1\SMIRNO~1.ODU\LOCALS~1\Temp\RSP228.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/APILog2.pdb" /debug /machine:I386 /out:"Debug/APILog2.exe" /pdbtype:sept 
+.\Debug\APILog2.obj
+.\Debug\Assembler.obj
+.\Debug\Binary.obj
+.\Debug\CErrors.obj
+.\Debug\StdAfx.obj
+.\Debug\BinControls.obj
+.\Debug\Classes.obj
+.\Debug\Controls.obj
+.\Debug\Processes.obj
+.\Debug\StdGUI.obj
+.\Debug\WinControls.obj
+.\Debug\PEFiles.obj
+.\Debug\PERecords.obj
+.\Debug\CParser.obj
+.\Debug\PTemplates.obj
+.\Debug\APILog2.res
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\SMIRNO~1.ODU\LOCALS~1\Temp\RSP228.tmp"
+<h3>Output Window</h3>
+Compiling...
+Processes.cpp
+D:\PROGS\CPP\APILog2\Processes.cpp(94) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(94) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(95) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(95) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(96) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(111) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(117) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(123) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(131) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(161) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(161) : warning C4355: 'this' : used in base member initializer list
+D:\PROGS\CPP\APILog2\Processes.cpp(161) : warning C4355: 'this' : used in base member initializer list
+Linking...
+xilink6: executing 'C:\PROGRA~1\MICROS~3\VC98\Bin\link.exe'
+Creating temporary file "C:\DOCUME~1\SMIRNO~1.ODU\LOCALS~1\Temp\RSP229.tmp" with contents
+[
+/nologo /o"Debug/APILog2.bsc" 
+.\Debug\APILog2.sbr
+.\Debug\Assembler.sbr
+.\Debug\Binary.sbr
+.\Debug\CErrors.sbr
+.\Debug\StdAfx.sbr
+.\Debug\BinControls.sbr
+.\Debug\Classes.sbr
+.\Debug\Controls.sbr
+.\Debug\Processes.sbr
+.\Debug\StdGUI.sbr
+.\Debug\WinControls.sbr
+.\Debug\PEFiles.sbr
+.\Debug\PERecords.sbr
+.\Debug\CParser.sbr
+.\Debug\PTemplates.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\SMIRNO~1.ODU\LOCALS~1\Temp\RSP229.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+APILog2.exe - 0 error(s), 12 warning(s)
+</pre>
+</body>
+</html>
